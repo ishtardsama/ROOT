@@ -13,7 +13,7 @@
 
 ---
 
-## Hardware Bill of Materials (BOM)
+## Hardware Bill of Materials
 
 | Component | Specification | Function |
 | :--- | :--- | :--- |
