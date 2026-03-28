@@ -18,7 +18,7 @@
 
 | Component | Specification | Function |
 | :--- | :--- | :--- |
-| **Microcontroller** | [Seeed Studio XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5433.html) | Main Brain & Wi-Fi |
+| **Microcontroller** | [Seeed Studio XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) | Main Brain & Wi-Fi |
 | **Moisture Sensor** | Capacitive Soil Moisture v2.0 | Soil hydration levels |
 | **Light Sensor** | BH1750 (GY-302) | Ambient Light (Lux) |
 | **Battery** | 3.7V 1000mAh LiPo (603048) | Portable power |
