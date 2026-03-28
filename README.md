@@ -1,7 +1,7 @@
 # ROOT v1.0 | Smart Plant Monitor
 
 
-**ROOT** (Remote Observation & Organic Telemetry) is a low-power, Wi-Fi-enabled sensor node designed to monitor the health of indoor houseplants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via your personal cloud server.
+**ROOT** is a low-power, Wi-Fi-enabled sensor node designed to monitor the health of indoor houseplants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via your personal cloud server.
 
 ---
 
