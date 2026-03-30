@@ -1,7 +1,7 @@
 # ROOT v1.0 | Smart Plant Monitor
 
 
-**ROOT** is a low-power, Wi-Fi-enabled sensor node designed to monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via your personal cloud server.
+**ROOT** is a low-power, Wi-Fi-enabled sensor node designed to monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via WiFi.
 
 ---
 
@@ -18,9 +18,9 @@
 | Component | Specification | Function |
 | :--- | :--- | :--- |
 | **Microcontroller** | [Seeed Studio XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) | Main Brain & Wi-Fi |
-| **Moisture Sensor** | Capacitive Soil Moisture v2.0 | Soil hydration levels |
-| **Light Sensor** | BH1750 (GY-302) | Ambient Light (Lux) |
-| **Battery** | 3.7V 1000mAh LiPo (603048) | Portable power |
+| **Moisture Sensor** | Capacitive Soil Moisture v2.0 | Soil moisture levels |
+| **Light Sensor** | BH1750 (GY-302) | Light Levels (Lux) |
+| **Battery** | 3.7V 1000mAh LiPo (603048) | Power |
 
 ---
 
