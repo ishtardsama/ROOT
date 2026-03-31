@@ -25,7 +25,22 @@
 ---
 ## Roadmap
 
+POLE is still a work in progress, help us by proposing features you would like to be seen implemented!
 
+[Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
+
+- [x] Base model w/o AI integration
+- [x] AI integration to give a detailed description
+- [ ] Better app integration (currently using Blynk for AI description output :/)
+- [ ] Text to speech locally
+- [ ] Locally hosted AI to remove the reliance on internet
+- [ ] Real Time AI object detection
+- [ ] Integration with Google Maps and indoor positioning systems
+- [ ] Real-time facial recognition of friends and family
+
+See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## License
