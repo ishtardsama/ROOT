@@ -29,14 +29,18 @@ ROOT is still a work in progress, help us by proposing features you would like t
 
 [Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
 
-- [ ] Moisture 
-- [ ] AI integration to give a detailed description
-- [ ] Better app integration (currently using Blynk for AI description output :/)
-- [ ] Text to speech locally
-- [ ] Locally hosted AI to remove the reliance on internet
-- [ ] Real Time AI object detection
-- [ ] Integration with Google Maps and indoor positioning systems
-- [ ] Real-time facial recognition of friends and family
+v1.0 MVP
+- [x ] Hardware component selection and sourcing
+- [ ] Initial sensor integration
+- [ ] Basic WiFi and data transmission
+- [ ] Mobile Dashboard
+
+v2.0 Power Optimization
+- [ ] Implement Sleep logic to extend battery life
+- [ ] Battery Low push notification
+- [ ] 
+
+
 
 See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
 
