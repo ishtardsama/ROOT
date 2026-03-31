@@ -25,12 +25,12 @@
 ---
 ## Roadmap
 
-POLE is still a work in progress, help us by proposing features you would like to be seen implemented!
+ROOT is still a work in progress, help us by proposing features you would like to be seen implemented!
 
 [Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
 
-- [x] Base model w/o AI integration
-- [x] AI integration to give a detailed description
+- [ ] Moisture 
+- [ ] AI integration to give a detailed description
 - [ ] Better app integration (currently using Blynk for AI description output :/)
 - [ ] Text to speech locally
 - [ ] Locally hosted AI to remove the reliance on internet
