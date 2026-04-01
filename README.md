@@ -27,18 +27,18 @@ ROOT is still a work in progress, help us by proposing features you would like t
 
 [Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
 
-v1.0 MVP
+  1. v1.0 MVP
 - [x] Hardware component selection and sourcing
 - [ ] Initial sensor integration
 - [ ] Basic WiFi and data transmission
 - [ ] Mobile Dashboard
 
-v2.0 Power Optimization
+  2. v2.0 Power Optimization
 - [ ] Implement Sleep logic to extend battery life
 - [ ] Battery Low push notification
 - [ ] Voltage divider curcuit for real time battery percentage monitoring 
 
-v3.0 Plant Health
+  3. v3.0 Plant Health
 - [ ] VPD calculation 
 - [ ] Circadian rhythm monitoring
 - [ ] Plant to drink ratio
