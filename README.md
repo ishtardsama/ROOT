@@ -40,8 +40,10 @@ v2.0 Power Optimization
 - [ ] Battery Low push notification
 - [ ] Voltage divider curcuit for real time battery percentage monitoring 
 
-v3.0 
-- [ ] AI driven suggestions 
+v3.0 Plant Health
+- [ ] VPD calculation 
+- [ ] Circadian rhythm 
+- [ ] Plant to drink ratio
 
 
 See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
