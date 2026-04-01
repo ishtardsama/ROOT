@@ -2,14 +2,14 @@
 
 
 **ROOT** is a low-power, Wi-Fi-enabled sensor node designed to monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via WiFi.
-
+  
 
 ## Features
 * **Capacitive Sensing:** Corrosion-resistant soil moisture tracking.
 * **Lux Precision:** High-accuracy light monitoring via BH1750 (GY-302).
 * **Deep Sleep Optimized:** Powered by a 1000mAh LiPo battery, lasting 3–6 months per charge.
 * **Mobile Dashboards:** Real-time gauges and push notifications for watering/lighting alerts.
-
+  
 
 ## Hardware Bill of Materials
 
@@ -20,6 +20,7 @@
 | **Light Sensor** | BH1750 (GY-302) | Light Levels (Lux) |
 | **Battery** | 3.7V 1000mAh LiPo (603048) | Power |
 
+  
 ## Roadmap
 
 ROOT is still a work in progress, help us by proposing features you would like to be seen implemented!
@@ -45,9 +46,11 @@ v3.0 Plant Health
 
 See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
 
+  
 ## Usage
 Learn how to use ROOT with our [demo video! (unavailable)](https://youtube.com/)
 
+  
 ## License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
