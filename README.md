@@ -43,7 +43,7 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 **Plant Health (v1.2)**
 - [ ] VPD calculation 
 - [ ] Circadian rhythm monitoring
-- [ ] Light to drink ratio
+- [ ] Light to drinking ratio
 
 **Environmental Considerations (v1.3)**
 - [ ] Enclosure
