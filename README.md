@@ -37,8 +37,8 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 - [ ] Mobile dashboard
 - [ ] Implement sleep logic to extend battery life
 - [ ] Watering and lighting push notifications
-- [ ] Battery low push notification
 - [ ] Voltage divider curcuit for real time battery percentage monitoring 
+- [ ] Battery low push notification
 
 **Plant Health (v1.2)**
 - [ ] VPD calculation 
