@@ -11,7 +11,6 @@
 * **Deep Sleep Optimized:** Powered by a 1000mAh LiPo battery, lasting 3–6 months per charge.
 * **Mobile Dashboards:** Real-time gauges and push notifications for watering/lighting alerts.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## Hardware Bill of Materials
@@ -23,7 +22,6 @@
 | **Light Sensor** | BH1750 (GY-302) | Light Levels (Lux) |
 | **Battery** | 3.7V 1000mAh LiPo (603048) | Power |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 ## Roadmap
 
@@ -44,17 +42,18 @@ v2.0 Power Optimization
 
 v3.0 Plant Health
 - [ ] VPD calculation 
-- [ ] Circadian rhythm 
+- [ ] Circadian rhythm monitoring
 - [ ] Plant to drink ratio
 
 
 See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
+
+## Usage
+Learn how to use ROOT with our [demo video! (unavailable)](https://youtube.com/)
 
 ## License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
