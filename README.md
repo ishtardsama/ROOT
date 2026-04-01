@@ -31,17 +31,23 @@ ROOT is still a work in progress, help us by proposing features you would like t
 - [x] Hardware component selection and sourcing
 - [ ] Initial sensor integration
 - [ ] Basic WiFi and data transmission
-- [ ] Mobile Dashboard
+- [ ] Mobile dashboard
 
-**Power Optimization (v1.1)**
-- [ ] Implement Sleep logic to extend battery life
-- [ ] Battery Low push notification
+**Power Optimization & QOL (v1.1)**
+- [ ] Implement sleep logic to extend battery life
+- [ ] Watering and lighting push notifications
+- [ ] Battery low push notification
 - [ ] Voltage divider curcuit for real time battery percentage monitoring 
 
 **Plant Health (v1.2)**
 - [ ] VPD calculation 
 - [ ] Circadian rhythm monitoring
-- [ ] Plant to drink ratio
+- [ ] Light to drink ratio
+
+**Environmental Considerations (v1.3)**
+- [ ] Enclosure
+- [ ] Waterproofing
+- [ ] Solar pannel for charging
 
 
 See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
