@@ -11,6 +11,7 @@
 * **Deep Sleep Optimized:** Powered by a 1000mAh LiPo battery, lasting 3–6 months per charge.
 * **Mobile Dashboards:** Real-time gauges and push notifications for watering/lighting alerts.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## Hardware Bill of Materials
@@ -22,6 +23,7 @@
 | **Light Sensor** | BH1750 (GY-302) | Light Levels (Lux) |
 | **Battery** | 3.7V 1000mAh LiPo (603048) | Power |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 ## Roadmap
 
@@ -30,7 +32,7 @@ ROOT is still a work in progress, help us by proposing features you would like t
 [Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
 
 v1.0 MVP
-- [x ] Hardware component selection and sourcing
+- [x] Hardware component selection and sourcing
 - [ ] Initial sensor integration
 - [ ] Basic WiFi and data transmission
 - [ ] Mobile Dashboard
@@ -54,4 +56,5 @@ See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full lis
 ## License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
