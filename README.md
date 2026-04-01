@@ -27,6 +27,8 @@ ROOT is still a work in progress, help us by proposing features you would like t
 
 [Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
 
+---
+
 **Minimum Viable Product (v1.0)**
 - [x] Hardware component selection and sourcing
 - [ ] Initial sensor integration
