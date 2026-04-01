@@ -32,9 +32,9 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 - [x] Hardware component selection and sourcing
 - [ ] Initial sensor integration
 - [ ] Basic WiFi and data transmission
-- [ ] Mobile dashboard
 
 **Power Optimization & QOL (v1.1)**
+- [ ] Mobile dashboard
 - [ ] Implement sleep logic to extend battery life
 - [ ] Watering and lighting push notifications
 - [ ] Battery low push notification
