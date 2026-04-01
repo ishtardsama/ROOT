@@ -24,9 +24,7 @@
   
 ## Roadmap
 
-ROOT is still a work in progress, help us by proposing features you would like to be seen implemented!
-
-[Propose Features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md)
+ROOT is still a work in progress, help us by [proposing features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md) you would like to be seen implemented!
 
 
 
