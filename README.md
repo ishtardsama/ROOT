@@ -10,6 +10,7 @@
 * **Lux Precision:** High-accuracy light monitoring via BH1750 (GY-302).
 * **Deep Sleep Optimized:** Powered by a 1000mAh LiPo battery, lasting 3–6 months per charge.
 * **Mobile Dashboards:** Real-time gauges and push notifications for watering/lighting alerts.
+* **Accurate Plant Health:** by using VPD and circadian rhythm calculation to determine action needed.
 
 
 ## Hardware Bill of Materials
