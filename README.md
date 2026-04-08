@@ -31,7 +31,8 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 
 **Minimum Viable Product (v1.0)**
 - [x] Hardware component selection and sourcing
-- [ ] Initial sensor integration
+- [x] Moisture sensor integration
+- [ ] Light sensor integration
 - [ ] Basic WiFi and data transmission
 
 **Power Optimization & QOL (v1.1)**
