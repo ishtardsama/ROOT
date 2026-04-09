@@ -35,14 +35,16 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 - [ ] Light sensor integration
 - [ ] Basic WiFi and data transmission
 
-**Power Optimization & QOL (v1.1)**
-- [ ] Mobile dashboard
+**App Development (v1.2)**
+- [ ]  Dashboard
+
+**Power Optimization & QOL (v1.2)**
 - [ ] Implement sleep logic to extend battery life
 - [ ] Watering and lighting push notifications
 - [ ] Voltage divider curcuit for real time battery percentage monitoring 
 - [ ] Battery low push notification
 
-**Plant Health (v1.2)**
+**Plant Health (v1.3)**
 - [ ] VPD calculation 
 - [ ] Circadian rhythm monitoring
 - [ ] Light to drinking ratio
