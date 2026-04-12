@@ -32,7 +32,7 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 **Minimum Viable Product (v1.0)**
 - [x] Hardware component selection and sourcing
 - [x] Moisture sensor integration
-- [ ] Light sensor integration
+- [x] Light sensor integration
 - [ ] Basic WiFi and data transmission
 
 **App Development (v1.2)**
