@@ -1,0 +1,12 @@
+include/arduino_secrets.h
+.pio/
+.pioenvs/
+.piolibdeps/
+fpga/
+.vscode/
+.history/
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
