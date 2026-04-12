@@ -3,19 +3,17 @@
 #include <WebServer.h>
 #include <ESPmDNS.h>
 #include <ArduinoJson.h>
-#include "arduino_secrets.h" // This looks in the 'include' folder automatically
+#include "arduino_secrets.h" 
 
-const char* ssid = SECRET_SSID;
-const char* password = SECRET_PASS;
+const char* ssid = SSID;
+const char* password = PASS;
 
 WebServer server(80);
-const int moisturePin = 34; // Capacitive sensor pin
+const int moisturePin = 2; 
 
 void handleGetData() {
     int rawValue = analogRead(moisturePin);
     
-    // Simple mapping: 4095 is dry, ~1500 is wet. 
-    // You'll refine these numbers during calibration.
     int moisturePercent = map(rawValue, 4095, 1500, 0, 100);
     moisturePercent = constrain(moisturePercent, 0, 100);
 
@@ -42,7 +40,6 @@ void setup() {
     Serial.print("IP Address: ");
     Serial.println(WiFi.localIP());
 
-    // Allows the app to find 'leaf-link.local'
     if (MDNS.begin("leaf-link")) {
         Serial.println("MDNS responder started");
     }
