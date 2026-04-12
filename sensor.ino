@@ -3,7 +3,6 @@
 
 BH1750 lightMeter(0x23); 
 
-
 const int AIR_VALUE = 2730;   
 const int WATER_VALUE = 1350; 
 
