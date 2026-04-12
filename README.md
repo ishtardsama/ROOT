@@ -33,10 +33,10 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 - [x] Hardware component selection and sourcing
 - [x] Moisture sensor integration
 - [x] Light sensor integration
-- [ ] Basic WiFi and data transmission
+- [x] Basic WiFi and data transmission
 
 **App Development (v1.2)**
-- [ ]  Dashboard
+- [x]  Dashboard
 
 **Power Optimization & QOL (v1.2)**
 - [ ] Implement sleep logic to extend battery life
