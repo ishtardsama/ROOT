@@ -36,7 +36,7 @@ ROOT is still a work in progress, help us by [proposing features](https://github
 - [x] Basic WiFi and data transmission
 
 **App Development (v1.2)**
-- [ ]  Dashboard
+- [x] Dashboard
 
 **Power Optimization & QOL (v1.2)**
 - [ ] Implement sleep logic to extend battery life
