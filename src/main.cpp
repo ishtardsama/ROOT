@@ -4,7 +4,7 @@
 #include <ArduinoJson.h>
 #include <Wire.h>
 #include <BH1750.h>
-#include "arduino_secrets.h"
+#include <arduino_secrets.h>
 
 const char* ssid = SSID;
 const char* password = PASS;
