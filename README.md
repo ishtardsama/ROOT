@@ -15,7 +15,7 @@
   </p>
 </div>
 
-# ROOT v1.0 | Smart Plant Monitor
+# About the project
 
 
 **ROOT** is a low-power, Wi-Fi-enabled sensor node designed to easily monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via WiFi.
