@@ -3,15 +3,15 @@
     <img src="images/POLELogo.jpeg" alt="Logo" width="500" height="300">
   </a>
 
-  <h3 align="center">POLE</h3>
+  <h3 align="center">ROOT</h3>
 
   <p align="center">
-    An AI assisted walking stick for the visually impaired    <br />
-    <a href="https://github.com/MengsChill/POLE">View Demo</a>
+    A low-power, Wi-Fi-enabled sensor node designed to easily monitor the health of your plants.<br />
+    <a href="https://github.com/ishtardsama/ROOT">View Demo</a>
     &middot;
-    <a href="https://github.com/MengsChill/POLE/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/ishtardsama/ROOT/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/MengsChill/POLE/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
