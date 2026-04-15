@@ -1,3 +1,20 @@
+<br />
+<div align="center">
+    <img src="images/POLELogo.jpeg" alt="Logo" width="500" height="300">
+  </a>
+
+  <h3 align="center">POLE</h3>
+
+  <p align="center">
+    An AI assisted walking stick for the visually impaired    <br />
+    <a href="https://github.com/MengsChill/POLE">View Demo</a>
+    &middot;
+    <a href="https://github.com/MengsChill/POLE/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/MengsChill/POLE/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
 # ROOT v1.0 | Smart Plant Monitor
 
 
