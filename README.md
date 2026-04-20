@@ -1,10 +1,31 @@
-# ROOT v1.0 | Smart Plant Monitor
+<br />
+<div align="center">
+    <img src="images/POLELogo.jpeg" alt="Logo" width="500" height="300">
+  </a>
+
+  <h3 align="center">ROOT</h3>
+
+  <p align="center">
+    A low-power, Wi-Fi-enabled sensor node designed to easily monitor the health of your plants.<br />
+    <a href="https://github.com/ishtardsama/ROOT">View Demo</a>
+    &middot;
+    <a href="https://github.com/ishtardsama/ROOT/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+# About the project
 
 
 **ROOT** is a low-power, Wi-Fi-enabled sensor node designed to easily monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via WiFi.
 
-
-
+# Built with
+* [![C++][Cpp.com]][Cpp-url]
+* [![Dart][Dart.dev]][Dart-url]
+* [![Flutter][Flutter.dev]][Flutter-url]
+* [![Kotlin][Kotlin.lang]][Kotlin-url]
+  
 ## Features
 * **Capacitive Sensing:** Corrosion-resistant soil moisture tracking.
 * **Lux Precision:** High-accuracy light monitoring via BH1750 (GY-302).
@@ -25,7 +46,7 @@
   
 ## Roadmap
 
-ROOT is still a work in progress, help us by [proposing features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md) you would like to be seen implemented!
+ROOT is still a work in progress, help me by [proposing features](https://github.com/ishtardsama/ROOT/issues/new?labels=enhancement&template=feature-request---.md) you would like to be seen implemented!
 
 <br>
 
@@ -69,4 +90,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel ullamcorper libero. Aenean sit amet arcu ac nisl mattis pretium. Cras rutrum lorem vitae nibh pellentesque, sed hendrerit dolor posuere. Duis vitae consequat est. Maecenas tempor dictum viverra. Mauris facilisis dui imperdiet nibh molestie aliquet. Donec sit amet dui turpis. Suspendisse urna ipsum, lacinia in diam a, porta blandit erat. Nam bibendum mauris id lectus lacinia lacinia. Mauris tristique dolor sed eleifend porta.
+[Kotlin.lang]: https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white
+[Kotlin-url]: https://kotlinlang.org/
+[Cpp.com]: https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white
+[Cpp-url]: https://isocpp.org/
+[Flutter.dev]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
+[Flutter-url]: https://flutter.dev/
+[Dart.dev]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
+[Dart-url]: https://dart.dev/
+[issues-url]: https://github.com/ishtardsama/ROOT/issues
