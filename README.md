@@ -22,8 +22,8 @@
 
 # Built with
 * [![C++][Cpp.com]][Cpp-url]
-* [![Dart][Dart.dev]][Dart-url]
 * [![Flutter][Flutter.dev]][Flutter-url]
+* [![Dart][Dart.dev]][Dart-url]
 * [![Kotlin][Kotlin.lang]][Kotlin-url]
   
 ## Features
