@@ -21,8 +21,8 @@
 **ROOT** is a low-power, Wi-Fi-enabled sensor node designed to easily monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via WiFi.
 
 # Built with
-* [![C++][Cpp.com]][Cpp-url]
 * [![Flutter][Flutter.dev]][Flutter-url]
+* [![C++][Cpp.com]][Cpp-url]
 * [![Dart][Dart.dev]][Dart-url]
 * [![Kotlin][Kotlin.lang]][Kotlin-url]
   
