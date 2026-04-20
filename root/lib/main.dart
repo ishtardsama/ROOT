@@ -5,9 +5,6 @@ import 'dart:async';
 import 'dart:math' as math;
 import 'config.dart';
 
-// ─────────────────────────────────────────────────────────────
-//  Design tokens
-// ─────────────────────────────────────────────────────────────
 class RC {
   static const bg          = Color(0xFF040804);
   static const surface     = Color(0xFF090E09);
@@ -49,9 +46,7 @@ class RootApp extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  Dashboard
-// ─────────────────────────────────────────────────────────────
+
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
   @override
@@ -180,7 +175,6 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
     return Scaffold(
       body: Stack(
         children: [
-          // Subtle top radial glow
           Positioned(
             top: -80, left: -60,
             child: Container(
@@ -245,7 +239,7 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
     );
   }
 
-  // ── Header ──────────────────────────────────────────────
+
   Widget _buildHeader(String time) {
     final dotColor = _loading ? RC.textSub : (_online ? RC.green : RC.red);
     final pillBg   = _loading
@@ -305,7 +299,6 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
             ),
           ],
         ),
-        // Status pill with animated pulse dot
         AnimatedContainer(
           duration: const Duration(milliseconds: 400),
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
@@ -356,7 +349,6 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
     );
   }
 
-  // ── Info row ─────────────────────────────────────────────
   Widget _buildInfoRow(String time) {
     return Row(children: [
       Expanded(child: InfoTile(label: "DEVICE",  value: "XIAO C3", sub: "RISC-V")),
@@ -367,7 +359,6 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
     ]);
   }
 
-  // ── Insight card ─────────────────────────────────────────
   Widget _buildInsight() {
     return Container(
       decoration: BoxDecoration(
@@ -455,9 +446,6 @@ class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
   }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  SensorCard
-// ─────────────────────────────────────────────────────────────
 class SensorCard extends StatelessWidget {
   final String   label;
   final String   value;
@@ -491,7 +479,6 @@ class SensorCard extends StatelessWidget {
         color: RC.surface,
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: RC.border, width: 0.5),
-        // Colored glow shadow
         boxShadow: [
           BoxShadow(
             color: color.withOpacity(0.07),
@@ -511,7 +498,6 @@ class SensorCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         child: Column(
           children: [
-            // Top gradient strip
             Container(
               height: 2,
               decoration: BoxDecoration(
@@ -528,7 +514,6 @@ class SensorCard extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(20, 18, 20, 20),
               child: Row(
                 children: [
-                  // Gauge
                   SizedBox(
                     width: 104, height: 104,
                     child: CustomPaint(
@@ -661,9 +646,7 @@ class SensorCard extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  Arc gauge painter — with glow halo + end dot
-// ─────────────────────────────────────────────────────────────
+
 class ArcGaugePainter extends CustomPainter {
   final double progress;
   final Color  color;
@@ -678,7 +661,6 @@ class ArcGaugePainter extends CustomPainter {
     final rect   = Rect.fromCircle(center: c, radius: radius);
     final p      = progress.clamp(0.0, 1.0);
 
-    // Track
     canvas.drawArc(
       rect, start, sweep, false,
       Paint()
@@ -689,7 +671,6 @@ class ArcGaugePainter extends CustomPainter {
     );
 
     if (p > 0.01) {
-      // Glow halo layer
       canvas.drawArc(
         rect, start, sweep * p, false,
         Paint()
@@ -700,7 +681,6 @@ class ArcGaugePainter extends CustomPainter {
           ..maskFilter  = const MaskFilter.blur(BlurStyle.normal, 5),
       );
 
-      // Main arc
       canvas.drawArc(
         rect, start, sweep * p, false,
         Paint()
@@ -710,7 +690,6 @@ class ArcGaugePainter extends CustomPainter {
           ..strokeCap  = StrokeCap.round,
       );
 
-      // End dot glow
       final endAngle = start + sweep * p;
       final dotX = c.dx + radius * math.cos(endAngle);
       final dotY = c.dy + radius * math.sin(endAngle);
@@ -720,7 +699,6 @@ class ArcGaugePainter extends CustomPainter {
           ..color      = color.withOpacity(0.25)
           ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4),
       );
-      // End dot solid
       canvas.drawCircle(
         Offset(dotX, dotY), 3.5,
         Paint()..color = color,
@@ -740,9 +718,7 @@ class ArcGaugePainter extends CustomPainter {
       old.progress != progress || old.color != color;
 }
 
-// ─────────────────────────────────────────────────────────────
-//  InfoTile
-// ─────────────────────────────────────────────────────────────
+
 class InfoTile extends StatelessWidget {
   final String label;
   final String value;
@@ -789,4 +765,4 @@ class InfoTile extends StatelessWidget {
       ),
     );
   }
-}
+}   
