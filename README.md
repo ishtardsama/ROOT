@@ -56,7 +56,7 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 - [x] Light sensor integration
 - [x] Basic WiFi and data transmission
 
-**App Development (v1.2)**
+**Simple App Design (v1.2)**
 - [x] Dashboard
 
 **Power Optimization & QOL (v1.2)**
@@ -70,7 +70,11 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 - [ ] Circadian rhythm monitoring
 - [ ] Light to drinking ratio
 
-**Environmental Considerations (v1.3)**
+**App Updates (v1.4)**
+- [ ] Plant health stuff integration
+- [ ] UI enhancements
+
+**Environmental Considerations (v1.5)**
 - [ ] Enclosure
 - [ ] Waterproofing
 - [ ] Solar pannel for charging
