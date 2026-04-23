@@ -73,6 +73,7 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 **App Updates (v1.4)**
 - [ ] Plant health stuff integration
 - [ ] UI enhancements
+- [ ] Data storage to see past plant analytics
 
 **Environmental Considerations (v1.5)**
 - [ ] Enclosure
