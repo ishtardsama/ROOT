@@ -60,9 +60,9 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 - [x] Dashboard
 
 **Power Optimization & QOL (v1.2)**
-- [ ] Implement sleep logic to extend battery life
+- [x] Implement sleep logic to extend battery life
 - [ ] Watering and lighting push notifications
-- [ ] Voltage divider curcuit for real time battery percentage monitoring 
+- [x] Voltage divider curcuit for real time battery percentage monitoring 
 - [ ] Battery low push notification
 
 **Plant Health (v1.3)**
