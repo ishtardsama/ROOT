@@ -21,9 +21,9 @@
 **ROOT** is a low-power, Wi-Fi-enabled sensor node designed to easily monitor the health of your plants. Built on the **XIAO ESP32-C3**, it tracks soil moisture and ambient light levels, sending real-time data to a mobile dashboard via WiFi.
 
 # Built with
+* [![Flutter][Flutter.dev]][Flutter-url]
 * [![C++][Cpp.com]][Cpp-url]
 * [![Dart][Dart.dev]][Dart-url]
-* [![Flutter][Flutter.dev]][Flutter-url]
 * [![Kotlin][Kotlin.lang]][Kotlin-url]
   
 ## Features
@@ -56,7 +56,7 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 - [x] Light sensor integration
 - [x] Basic WiFi and data transmission
 
-**App Development (v1.2)**
+**Simple App Design (v1.2)**
 - [x] Dashboard
 
 **Power Optimization & QOL (v1.2)**
@@ -70,7 +70,12 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 - [ ] Circadian rhythm monitoring
 - [ ] Light to drinking ratio
 
-**Environmental Considerations (v1.3)**
+**App Updates (v1.4)**
+- [ ] Plant health stuff integration
+- [ ] UI enhancements
+- [ ] Data storage to see past plant analytics
+
+**Environmental Considerations (v1.5)**
 - [ ] Enclosure
 - [ ] Waterproofing
 - [ ] Solar pannel for charging
