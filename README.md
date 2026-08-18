@@ -31,7 +31,6 @@
 * **Lux Precision:** High-accuracy light monitoring via BH1750 (GY-302).
 * **Deep Sleep Optimized:** Powered by a 1000mAh LiPo battery, lasting 3–6 months per charge.
 * **Mobile Dashboards:** Real-time gauges and push notifications for watering/lighting alerts.
-* **Accurate Plant Health:** by using VPD and circadian rhythm calculation to determine action needed.
 
 
 ## Hardware Bill of Materials
@@ -60,32 +59,11 @@ ROOT is still a work in progress, help me by [proposing features](https://github
 - [x] Dashboard
 
 **QOL (v1.2)**
-- [ ] Watering and lighting push notifications
 - [x] Voltage divider curcuit for real time battery percentage monitoring 
-- [ ] Battery low push notification
-
-**Plant Health (v1.3)**
-- [ ] VPD calculation 
-- [ ] Circadian rhythm monitoring
-- [ ] Light to drinking ratio
-
-**App Updates (v1.4)**
-- [ ] Plant health stuff integration
-- [ ] UI enhancements
-- [ ] Data storage to see past plant analytics
-
-**Environmental Considerations (v1.5)**
-- [ ] Enclosure
-- [ ] Waterproofing
-- [ ] Solar pannel for charging
 
 
 See the [open issues](https://github.com/ishtardsama/ROOT/issues) for a full list of proposed features (and known issues).
 
-
-
-## Usage
-Learn how to use ROOT with our [demo video! (unavailable)](https://youtube.com/)
 
 
 ## License
