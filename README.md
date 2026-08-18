@@ -1,8 +1,5 @@
 <br />
 <div align="center">
-    <img src="images/POLELogo.jpeg" alt="Logo" width="500" height="300">
-  </a>
-
   <h3 align="center">ROOT</h3>
 
   <p align="center">
